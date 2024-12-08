@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Supreme;
+  src: url(./fonts/Supreme-Variable.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
 }
+
 header {
   display: flex;
 }
@@ -37,7 +42,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.welcome_banner {
+.landing_page {
   opacity: 0.5;
   background: #000;
   mix-blend-mode: darken;
@@ -49,8 +54,99 @@ nav {
   color: #ffffff;
   padding: 50px;
   justify-content: space-between;
+  font-family: Supreme;
 }
 .time_location {
   display: flex;
   gap: 20px;
+}
+.light_mode {
+  display: inline-flex;
+  padding: 8px 24px 8px 8px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 56px;
+  border: 1px solid #fff;
+}
+button {
+  border-radius: 56px;
+  border: 1px solid #fff;
+  display: inline-flex;
+  padding: 2px 3px 8px 8px;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+.landing_content {
+  color: #fff;
+
+  /* #1/H1/Bold */
+  font-family: Supreme;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 96px */
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+.yellow_word {
+  padding-left: 150px;
+  color: yellow;
+
+  /* #1/H1/Bold */
+  font-family: Supreme;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 96px */
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.landing_text {
+  padding: 50px;
+  padding-top: 130px;
+}
+.menu_counter {
+  font-family: Supreme;
+  color: white;
+}
+.menu_counter > span {
+  color: gray;
+}
+.brand {
+  color: white;
+  display: flex;
+  padding-left: 150px;
+}
+.information {
+  display: flex;
+  padding-left: 210px;
+  gap: 63px;
+  align-items: center;
+}
+
+.information > p {
+  color: var(--White, #fff);
+
+  /* #1/Body/REG/Regular */
+  font-family: Supreme;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 28.8px */
+}
+.fake_button {
+  background-color: #e5e548;
+  color: black;
+  width: 108px;
+  height: 108px;
+  flex-shrink: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  font-family: Supreme;
+  cursor: pointer;
 }
