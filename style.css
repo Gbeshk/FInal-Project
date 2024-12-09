@@ -6,9 +6,14 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+body {
+  max-width: 2040px;
+  width: 100%;
+  margin: auto;
+}
 header {
   display: flex;
+  /* overflow: hidden; */
 }
 .menu {
   display: inline-block;
@@ -154,7 +159,7 @@ button {
 }
 .video_div {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: flex-end;
 }
 .video_div > span {
@@ -173,5 +178,4 @@ button {
   display: flex;
   gap: 63px;
   align-items: center;
-  /* justify-content: space-between; */
 }
