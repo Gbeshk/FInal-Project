@@ -97,10 +97,12 @@ section3div5.addEventListener("mouseleave", () => {
   let divlinesection3 = document.getElementById("divlinesection3_5");
   divlinesection3.style.backgroundColor = " rgba(255, 255, 255, 0.2)";
 });
+let foto;
 async function getAllProducts() {
   try {
     let data = await fetch("https://fakestoreapi.com/products");
     let products = await data.json();
+    foto = products[0].image;
     for (let i = 1; i <= 12; i++) {
       let mobilesliderp = document.getElementById(`mobilesliperp${i}`);
       let mobilesliderpp = document.getElementById(`mobilesliperpp${i}`);
@@ -198,11 +200,13 @@ async function getAllProducts() {
       secondswiperppp.textContent = secondswiperppp.textContent.slice(0, 50);
     }
     let justimage = document.getElementById("justimage");
-    justimage.src = products[0].image;
     for (let i = 1; i <= 5; i++) {
       let pdiv = document.getElementById(`section3pdiv${i}`);
-      pdiv.addEventListener("click", () => {
+      pdiv.addEventListener("mouseover", () => {
         justimage.src = products[i].image;
+      });
+      pdiv.addEventListener("mouseleave", () => {
+        justimage.src = "./images/image.jpg";
       });
     }
   } catch (error) {
@@ -255,3 +259,4 @@ let call = document.getElementById("call");
 call.addEventListener("click", () => {
   window.location.href = "tel:+995551537703";
 });
+let justimage = document.getElementById("justimage");
