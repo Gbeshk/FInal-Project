@@ -428,3 +428,8 @@ mobilebuttondiv.addEventListener("click", () => {
   let mobilewerto = document.getElementById("werto");
   mobilewerto.classList.toggle("wertilaa");
 });
+let refresh = document.getElementById("refresh");
+function handleClick() {
+  window.location.reload();
+}
+refresh.addEventListener("click", handleClick);
