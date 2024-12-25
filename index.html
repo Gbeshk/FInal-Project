@@ -9,6 +9,50 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      .andria {
+        position: relative;
+        height: 100%;
+      }
+
+      .andria {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
     <div class="bigcontainer">
@@ -33,308 +77,37 @@
       <section>
         <p class="section2p1" id="latest">LATEST</p>
         <p class="section2p2">PROJECTS</p>
-        <div class="mobileupperslider" id="mobileslider">
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv1">
-              <p class="numberpos" id="mobilenumberpos">01</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv1">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
+        <div class="andria">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
             </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp1">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp1">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp1">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp1">
-                asdasdadadsasd
-              </p>
-            </div>
+            <div class="swiper-scrollbar"></div>
           </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv2">
-              <p class="numberpos" id="mobilenumberpos">02</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv2">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp2">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp2">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp2">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp2">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv3">
-              <p class="numberpos" id="mobilenumberpos">03</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv3">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp3">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp3">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp3">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp3">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv4">
-              <p class="numberpos" id="mobilenumberpos">04</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv4">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp4">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp4">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp4">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp4">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv5">
-              <p class="numberpos" id="mobilenumberpos">05</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv5">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp5">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp5">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp5">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp5">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv6">
-              <p class="numberpos" id="mobilenumberpos">06</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv6">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp6">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp6">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp6">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp6">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv7">
-              <p class="numberpos" id="mobilenumberpos">07</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv7">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp7">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp7">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp7">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp7">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv8">
-              <p class="numberpos" id="mobilenumberpos">08</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv8">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp8">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp8">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp8">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp8">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv9">
-              <p class="numberpos" id="mobilenumberpos">09</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv9">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp9">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp9">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp9">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp9">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv10">
-              <p class="numberpos" id="mobilenumberpos">10</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv10">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp10">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp10">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp10">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp10">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv11">
-              <p class="numberpos" id="mobilenumberpos">11</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv11">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp11">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp11">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp11">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp11">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
-          <div class="mobileuppersliderdiv">
-            <div class="mobileuppersliderimgdiv" id="mobileuppersliderimgdiv12">
-              <p class="numberpos" id="mobilenumberpos">12</p>
-              <div class="mobilehoverdiv" id="mobilehoverdiv12">
-                <img src="./icons/arrow.svg" alt="" />
-              </div>
-              <img class="mobileupperimage" src="./images/image.jpg" alt="" />
-            </div>
-            <p class="mobileuppersliderp1" id="mobilesliperp12">
-              asdasdadadsasd
-            </p>
-            <p class="mobileuppersliderp2" id="mobilesliperpp12">
-              dada a af afawf awwaf waw dwa daw aa awawfaf da dwdad d dad awd aw
-              wada
-            </p>
-            <p class="mobileuppersliderp3" id="mobilesliperppp12">
-              asdasdadadsasd
-            </p>
-            <div class="mobileuppersliderpdiv">
-              <div class="eclipse"></div>
-              <p class="mobileuppersliderp4" id="mobilesliperpppp12">
-                asdasdadadsasd
-              </p>
-            </div>
-          </div>
+
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+              },
+            });
+          </script>
         </div>
+
         <div class="swiper mySwiper" id="swiper2">
           <div class="swiper-wrapper">
             <div class="swiper-slide">

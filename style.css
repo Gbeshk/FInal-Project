@@ -2,16 +2,20 @@
   font-family: "Supreme";
   src: url(./fonts/Supreme-Variable.ttf);
 }
+.mzikolana {
+  width: 200px;
+  height: 200px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
 }
 body {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: black;
 }
 .section1div {
   position: relative;
